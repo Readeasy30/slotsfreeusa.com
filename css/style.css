@@ -19,6 +19,10 @@ img {
   margin: auto;
 }
 
+.narrow {
+  max-width: 760px;
+}
+
 .site-header {
   background: #0b1220;
   border-bottom: 1px solid #1f2937;
@@ -51,6 +55,11 @@ img {
   text-decoration: none;
 }
 
+.site-nav a:hover,
+.text-link:hover {
+  color: #facc15;
+}
+
 .menu-toggle {
   display: none;
   background: none;
@@ -59,7 +68,8 @@ img {
   font-size: 1.5rem;
 }
 
-.hero {
+.hero,
+.page-hero {
   padding: 80px 0;
   background: linear-gradient(135deg, #111827, #1e293b);
 }
@@ -71,7 +81,8 @@ img {
   align-items: center;
 }
 
-.hero h1 {
+.hero h1,
+.page-hero h1 {
   font-size: clamp(2.2rem, 5vw, 4.2rem);
   line-height: 1.1;
   margin-bottom: 20px;
@@ -122,6 +133,14 @@ img {
   padding: 24px;
 }
 
+.game-card {
+  transition: transform 0.2s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-4px);
+}
+
 .badge {
   display: inline-block;
   background: #facc15;
@@ -162,9 +181,15 @@ img {
   border-radius: 10px;
 }
 
-.notice-box a {
+.notice-box a,
+.text-link {
   color: #facc15;
   text-decoration: none;
+}
+
+.legal-page h2 {
+  margin-top: 40px;
+  color: #facc15;
 }
 
 .site-footer {
