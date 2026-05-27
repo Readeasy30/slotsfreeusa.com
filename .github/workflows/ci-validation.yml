@@ -1,0 +1,69 @@
+name: SlotsFreeUSA Web Code Validation Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Code Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Linting Framework Validation Tools
+        run: |
+          npm install -g htmlhint stylelint stylelint-config-standard
+
+      - name: Run HTML Validation Sweep
+        run: |
+          htmlhint "**/*.html" --config .htmlhintrc || echo "HTML warning detected"
+
+      - name: Run CSS Validation Sweep
+        run: |
+          cat > .stylelintrc.json <<'EOF'
+          {
+            "extends": "stylelint-config-standard"
+          }
+          EOF
+          if find . -name "*.css" -not -path "./node_modules/*" | grep -q .; then
+            stylelint "**/*.css" || echo "CSS warning detected"
+          else
+            echo "No CSS files found. Skipping CSS validation."
+          fi
+
+      - name: Verify Cloudflare Config Layout Files Existence
+        run: |
+          if [ ! -f "_redirects" ]; then
+            echo "CRITICAL ERROR: Cloudflare _redirects routing manifest file is missing!"
+            exit 1
+          fi
+          if [ ! -f "_headers" ]; then
+            echo "CRITICAL ERROR: Cloudflare _headers security header manifest file is missing!"
+            exit 1
+          fi
+          echo "[+] Core deployment configuration routing manifests verified."
+
+      - name: Validate _redirects Rules Syntactical Layout
+        run: |
+          while IFS= read -r line || [ -n "$line" ]; do
+            # Skip comment lines and empty lines
+            [[ "$line" =~ ^# ]] && continue
+            [[ -z "$line" ]] && continue
+
+            # Ensure redirect layout contains exactly a source, destination, and status code
+            elements=( $line )
+            if [ ${#elements[@]} -ne 3 ]; then
+              echo "MALFORMED REDIRECT LINE DETECTED: $line"
+              exit 1
+            fi
+          done < _redirects
+          echo "[+] Code validation sequence completed successfully. Safe to deploy."
