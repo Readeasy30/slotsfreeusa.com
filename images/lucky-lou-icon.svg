@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Lucky Lou icon</title>
+  <desc id="desc">A simple gold slot-machine mascot icon for SlotsFreeUSA.</desc>
+  <rect width="512" height="512" rx="120" fill="#0b1220"/>
+  <circle cx="256" cy="246" r="150" fill="#facc15"/>
+  <rect x="138" y="160" width="236" height="190" rx="32" fill="#111827"/>
+  <rect x="168" y="198" width="176" height="82" rx="18" fill="#f8fafc"/>
+  <circle cx="206" cy="239" r="18" fill="#ef4444"/>
+  <circle cx="256" cy="239" r="18" fill="#22c55e"/>
+  <circle cx="306" cy="239" r="18" fill="#3b82f6"/>
+  <rect x="188" y="304" width="136" height="24" rx="12" fill="#facc15"/>
+  <path d="M374 205h40c20 0 36 16 36 36v22" fill="none" stroke="#facc15" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="450" cy="284" r="22" fill="#facc15"/>
+  <text x="256" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#facc15">LOU</text>
+</svg>
