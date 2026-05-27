@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SlotsFreeUSA social image</title>
+  <desc id="desc">Dark navy and gold social sharing image for SlotsFreeUSA with Lucky Lou mascot.</desc>
+  <rect width="1200" height="630" fill="#0b1220"/>
+  <circle cx="955" cy="315" r="170" fill="#facc15" opacity="0.95"/>
+  <rect x="820" y="210" width="270" height="220" rx="36" fill="#111827"/>
+  <rect x="858" y="258" width="194" height="88" rx="18" fill="#f8fafc"/>
+  <circle cx="905" cy="302" r="20" fill="#ef4444"/>
+  <circle cx="955" cy="302" r="20" fill="#22c55e"/>
+  <circle cx="1005" cy="302" r="20" fill="#3b82f6"/>
+  <rect x="884" y="374" width="142" height="26" rx="13" fill="#facc15"/>
+  <path d="M1090 260h45c22 0 40 18 40 40v24" fill="none" stroke="#facc15" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="1175" cy="350" r="24" fill="#facc15"/>
+  <text x="88" y="190" font-family="Arial, sans-serif" font-size="70" font-weight="800" fill="#facc15">SlotsFreeUSA</text>
+  <text x="88" y="275" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#f8fafc">Free Slots. Social Casino Guides.</text>
+  <text x="88" y="345" font-family="Arial, sans-serif" font-size="34" fill="#d1d5db">Beginner-friendly reviews, bonus explainers, and safer-play tips.</text>
+  <text x="88" y="448" font-family="Arial, sans-serif" font-size="28" fill="#9ca3af">Information only. No real-money gambling offered.</text>
+</svg>
