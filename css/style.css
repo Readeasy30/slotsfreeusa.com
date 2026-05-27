@@ -14,6 +14,13 @@ img {
   max-width: 100%;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 .wrap {
   width: min(1100px, 92%);
   margin: auto;
@@ -21,6 +28,14 @@ img {
 
 .narrow {
   max-width: 760px;
+}
+
+.disclosure-bar {
+  background: #facc15;
+  color: #111827;
+  font-size: 0.92rem;
+  font-weight: 700;
+  padding: 8px 0;
 }
 
 .site-header {
@@ -56,7 +71,8 @@ img {
 }
 
 .site-nav a:hover,
-.text-link:hover {
+.text-link:hover,
+.footer-grid a:hover {
   color: #facc15;
 }
 
@@ -66,6 +82,7 @@ img {
   border: none;
   color: white;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .hero,
@@ -93,6 +110,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .hero-text {
@@ -108,10 +126,20 @@ img {
 }
 
 .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 14px 22px;
   border-radius: 10px;
+  border: 0;
   text-decoration: none;
   font-weight: bold;
+}
+
+.btn:disabled,
+input:disabled {
+  cursor: not-allowed;
+  opacity: 0.72;
 }
 
 .primary {
@@ -124,21 +152,34 @@ img {
   color: white;
 }
 
+.full-btn {
+  width: 100%;
+  margin-top: 12px;
+}
+
 .hero-card,
 .info-card,
-.notice-box {
+.notice-box,
+.review-card,
+.split-card,
+.newsletter-card {
   background: #1f2937;
   border: 1px solid #374151;
   border-radius: 18px;
   padding: 24px;
 }
 
-.game-card {
-  transition: transform 0.2s ease;
+.game-card,
+.review-card,
+.info-card {
+  transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-.game-card:hover {
+.game-card:hover,
+.review-card:hover,
+.info-card:hover {
   transform: translateY(-4px);
+  border-color: #facc15;
 }
 
 .badge {
@@ -155,6 +196,10 @@ img {
   padding: 70px 0;
 }
 
+.compact-section {
+  padding: 42px 0;
+}
+
 .alt {
   background: #0f172a;
 }
@@ -163,7 +208,16 @@ img {
   margin-bottom: 32px;
 }
 
-.card-grid {
+.split-head,
+.split-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.card-grid,
+.review-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
@@ -190,6 +244,85 @@ img {
 .legal-page h2 {
   margin-top: 40px;
   color: #facc15;
+}
+
+.rating-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid #374151;
+  border-radius: 18px;
+  background: #1f2937;
+}
+
+.compare-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #374151;
+  vertical-align: top;
+}
+
+.compare-table th {
+  background: #0b1220;
+  color: #facc15;
+}
+
+.compare-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.newsletter-card,
+.split-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.signup-placeholder {
+  width: min(420px, 100%);
+  display: grid;
+  gap: 10px;
+}
+
+.signup-placeholder label {
+  font-weight: 700;
+  color: #facc15;
+}
+
+.signup-placeholder input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #374151;
+  border-radius: 10px;
+  background: #111827;
+  color: #f3f4f6;
+}
+
+.faq-section details {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 12px 0;
+}
+
+.faq-section summary {
+  cursor: pointer;
+  color: #facc15;
+  font-weight: 700;
 }
 
 .lou-section {
@@ -238,10 +371,9 @@ img {
 }
 
 .footer-grid {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1.4fr repeat(3, minmax(140px, 1fr));
+  gap: 24px;
 }
 
 .footer-grid a {
@@ -258,7 +390,8 @@ img {
 }
 
 @media (max-width: 768px) {
-  .hero-grid {
+  .hero-grid,
+  .footer-grid {
     grid-template-columns: 1fr;
   }
 
@@ -281,8 +414,22 @@ img {
     flex-wrap: wrap;
   }
 
-  .lou-box {
+  .lou-box,
+  .split-head,
+  .split-card,
+  .newsletter-card,
+  .rating-row {
     flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .lou-box {
     text-align: center;
+    align-items: center;
+  }
+
+  .btn,
+  .split-card .btn {
+    width: 100%;
   }
 }
