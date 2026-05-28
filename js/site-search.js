@@ -12,6 +12,12 @@ const searchPages = [
     keywords: 'free slots no download slot types fruit slots classic slots beginner'
   },
   {
+    title: 'No Download Slots',
+    url: 'no-download-slots.html',
+    summary: 'Learn how browser-based slots work and what to check before playing on outside sites.',
+    keywords: 'no download slots browser slots instant play mobile slots free play no install'
+  },
+  {
     title: 'Slot Terms Explained',
     url: 'slot-terms-explained.html',
     summary: 'Learn reels, paylines, symbols, wilds, scatters, free spins, and bonus rules in plain English.',
@@ -167,7 +173,7 @@ function renderResults() {
     const title = document.createElement('h3');
     title.textContent = 'Try a simpler search';
     const text = document.createElement('p');
-    text.textContent = 'Try words like free slots, free spins, slot terms, bonuses, social casinos, sweepstakes, reviews, contact, or responsible play.';
+    text.textContent = 'Try words like free slots, no download slots, free spins, slot terms, bonuses, social casinos, sweepstakes, reviews, contact, or responsible play.';
     empty.appendChild(title);
     empty.appendChild(text);
     searchResults.appendChild(empty);
