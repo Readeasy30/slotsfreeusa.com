@@ -11,9 +11,15 @@ Build a profitable, trustworthy website through:
 - partner links
 - sponsored placements
 - educational guides
-- email list growth
+- email list growth later, after consent and privacy setup
 
 The site does not operate gambling, accept bets, process payments, or promise winnings.
+
+## Public Contact
+
+Use this email for SlotsFreeUSA website feedback, affiliate inquiries, advertising questions, partner review requests, and content corrections:
+
+`slotsfreeusa@gmail.com`
 
 ## Current Architecture
 
@@ -33,6 +39,7 @@ No React, no Vite, no build tools, and no unnecessary framework complexity.
 - `free-slots.html`
 - `bonuses.html`
 - `reviews.html`
+- `how-we-review.html`
 - `responsible-gaming.html`
 - `privacy.html`
 - `terms.html`
@@ -43,12 +50,16 @@ No React, no Vite, no build tools, and no unnecessary framework complexity.
 - `robots.txt`
 - `sitemap.xml`
 
-## Planning Files
+## Planning and Control Files
 
+- `AGENTS.md`
 - `AGENT-INSTRUCTIONS.md`
+- `PROJECT-STATUS.md`
+- `CODEX-WORKFLOW.md`
 - `CONTENT-PLAN.md`
 - `REVIEW-TEMPLATE.md`
 - `DEPLOYMENT-NOTES.md`
+- `MANUAL-QA-CHECKLIST.md`
 
 ## Brand Direction
 
@@ -60,7 +71,18 @@ No React, no Vite, no build tools, and no unnecessary framework complexity.
 - dark navy and gold style
 - honest about risk
 
+## Website Independence Rule
+
+SlotsFreeUSA must work independently.
+
+The public site should load, crawl, and be reviewed without ChatGPT being open.
+
+Use AI to build, update, market, and manage the site. Add controlled AI later only when it clearly helps revenue, trust, or visitor clarity.
+
 ## Workflow Rule
 
 Website code stays in this repository.
+
 Marketing systems can connect through the separate marketing repository.
+
+AI and Codex should update routine safe files directly instead of asking Gerry to paste code manually.
