@@ -69,6 +69,11 @@ Use this email for SlotsFreeUSA website feedback, affiliate inquiries, advertisi
 - Standardized `terms.html` with canonical URL, favicon, disclosure bar, stronger disclaimers, and current nav/footer.
 - Standardized `play-free-slots.html` with favicon, social casino navigation link, and full footer with partner/trust links.
 - Standardized `affiliate-disclosure.html` footer with Slot Terms, Free Spins, How We Review, Partner With Us, and current trust links.
+- Standardized `free-slots.html` footer with Free Spins and Partner With Us links.
+- Standardized `bonuses.html` footer with Partner With Us link.
+- Standardized `responsible-gaming.html` footer with Slot Terms, Free Spins, Partner With Us, and current trust links.
+- Standardized `how-we-review.html` footer with Slot Terms, Free Spins, Partner With Us, and current trust links.
+- Standardized `partner-with-us.html` footer with Slot Terms, Free Spins, Partner With Us, and current trust links.
 - Improved `free-slots.html` with consistent navigation, footer links, favicon, and links to review standards, bonus guide, responsible play, and beginner tips.
 - Improved `bonuses.html` with stronger review-process links, safer offer language, and consistent footer links.
 - Improved `responsible-gaming.html` with a safety-check table, stronger plain-English limits, and consistent footer links.
@@ -100,6 +105,7 @@ Use this email for SlotsFreeUSA website feedback, affiliate inquiries, advertisi
 
 - Separate `css/search.css` creation was blocked by the connector safety filter. Search page styling was added inline instead.
 - Privacy page clickable `mailto:` patch was blocked by the connector safety filter, but the correct contact email is visible in text.
+- Contact page full footer rewrite was blocked by the connector safety filter, but the page has correct canonical, favicon, mailto contact email, partner requirement link, and footer still reaches Partner With Us, Privacy, Terms, and Disclosure.
 - Actual affiliate application submission may require official portal login, affiliate account setup, business details, tax/payment details, or partner-manager approval.
 - No live affiliate links should be added until partner terms, age rules, location rules, tracking, and disclosures are checked.
 - No live ad scripts should be added until ad network approval and privacy requirements are ready.
@@ -108,8 +114,8 @@ Use this email for SlotsFreeUSA website feedback, affiliate inquiries, advertisi
 
 ## Next Safe Queue
 
-1. Continue footer/navigation consistency pass across remaining public pages.
-2. Check every sitemap page exists and has matching canonical URL.
+1. Finish sitemap/canonical page existence verification for `reviews.html`, `best-free-slots-for-beginners.html`, `sweepstakes-casino-guide.html`, `what-are-social-casinos.html`, and `search.html`.
+2. Retry contact footer update later through Codex if needed.
 3. Continue affiliate applications manually through official portals using the prepared outreach batches.
 4. Record each submitted application in `AFFILIATE-APPLICATION-TRACKER.md` and/or marketing-system posting logs.
 5. Keep all monetization links inactive until approval and disclosure checks are complete.
