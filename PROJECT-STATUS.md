@@ -59,9 +59,11 @@ Use this email for SlotsFreeUSA website feedback, affiliate inquiries, advertisi
 - Upgraded `slot-terms-explained.html` into a full SEO guide with FAQ schema, tables, plain-English definitions, safety language, and internal links.
 - Added `slot-terms-explained.html` to `sitemap.xml`.
 - Linked `free-slots.html`, `best-free-slots-for-beginners.html`, and `bonuses.html` to the slot terms guide.
+- Added partner/footer trust links to `slot-terms-explained.html` without overwriting newer page content.
 - Added `free-spins-explained.html` as a full SEO guide with FAQ schema, comparison table, safety language, and internal links.
 - Added `free-spins-explained.html` to `sitemap.xml`.
 - Linked `bonuses.html`, `best-free-slots-for-beginners.html`, and `slot-terms-explained.html` to the free spins guide.
+- Added partner/footer trust links to `free-spins-explained.html`.
 - Improved `free-slots.html` with consistent navigation, footer links, favicon, and links to review standards, bonus guide, responsible play, and beginner tips.
 - Improved `bonuses.html` with stronger review-process links, safer offer language, and consistent footer links.
 - Improved `responsible-gaming.html` with a safety-check table, stronger plain-English limits, and consistent footer links.
@@ -87,6 +89,7 @@ Use this email for SlotsFreeUSA website feedback, affiliate inquiries, advertisi
 - Hardened `js/free-slots-game.js` so the free slot game checks required elements before running and avoids duplicate-spin problems.
 - Replaced the `search.html` placeholder with a real static search page.
 - Added `js/site-search.js` with static page search across key SlotsFreeUSA pages.
+- Added `slot-terms-explained.html` and `free-spins-explained.html` to static search results.
 - Added inline search page styling after separate CSS creation was blocked by the connector.
 
 ## Known Blockers
@@ -100,7 +103,7 @@ Use this email for SlotsFreeUSA website feedback, affiliate inquiries, advertisi
 
 ## Next Safe Queue
 
-1. Run a footer/navigation consistency pass across all public pages.
+1. Continue footer/navigation consistency pass across remaining public pages.
 2. Check every sitemap page exists and has matching canonical URL.
 3. Continue affiliate applications manually through official portals using the prepared outreach batches.
 4. Record each submitted application in `AFFILIATE-APPLICATION-TRACKER.md` and/or marketing-system posting logs.
