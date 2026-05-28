@@ -45,6 +45,7 @@ No React, no Vite, no build tools, and no unnecessary framework complexity.
 - `terms.html`
 - `affiliate-disclosure.html`
 - `contact.html`
+- `partner-with-us.html`
 - `css/style.css`
 - `js/app.js`
 - `robots.txt`
@@ -60,6 +61,8 @@ No React, no Vite, no build tools, and no unnecessary framework complexity.
 - `REVIEW-TEMPLATE.md`
 - `DEPLOYMENT-NOTES.md`
 - `MANUAL-QA-CHECKLIST.md`
+- `PARTNER-CHECKLIST.md`
+- `AFFILIATE-APPLICATION-TRACKER.md`
 
 ## Brand Direction
 
@@ -86,3 +89,7 @@ Website code stays in this repository.
 Marketing systems can connect through the separate marketing repository.
 
 AI and Codex should update routine safe files directly instead of asking Gerry to paste code manually.
+
+## Partner Rule
+
+Partner links, paid tracking, display ads, and sponsorship placements stay inactive until review, disclosure, age rules, location rules, and final destination checks are complete.
