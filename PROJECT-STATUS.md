@@ -24,6 +24,12 @@ Use this email for website feedback, affiliate inquiries, advertising questions,
 
 `slotsfreeusa@gmail.com`
 
+## What The Site Does
+
+SlotsFreeUSA is a mobile-first adult information and entertainment site for free slot-style demo play, no-download slot guides, social casino explainers, sweepstakes casino education, bonus-language guides, safer-play education, and future ad or partner monetization after approval.
+
+The site must stay clear that it does not operate gambling, accept bets, process payments, manage outside accounts, issue payouts, or promise winnings.
+
 ## Current Site Direction
 
 SlotsFreeUSA is a mobile-first adult information and entertainment site for:
@@ -37,6 +43,116 @@ SlotsFreeUSA is a mobile-first adult information and entertainment site for:
 - future ad and partner monetization after approval
 
 The site must stay clear that it does not operate gambling, accept bets, process payments, manage outside accounts, issue payouts, or promise winnings.
+
+## Universal Repo Audit - 2026-05-28
+
+Status: PASS for non-visual repository audit after one safe footer consistency fix.
+
+Pages/files checked:
+
+- `index.html`
+- `play-free-slots.html`
+- `about.html`
+- `coming-soon.html`
+- `free-slots.html`
+- `no-download-slots.html`
+- `slot-terms-explained.html`
+- `free-spins-explained.html`
+- `casino-bonus-terms-explained.html`
+- `bonuses.html`
+- `reviews.html`
+- `how-we-review.html`
+- `responsible-gaming.html`
+- `privacy.html`
+- `terms.html`
+- `contact.html`
+- `partner-with-us.html`
+- `affiliate-disclosure.html`
+- `best-free-slots-for-beginners.html`
+- `sweepstakes-casino-guide.html`
+- `what-are-social-casinos.html`
+- `search.html`
+- `sitemap.xml`
+- `robots.txt`
+- `css/style.css`
+- `css/classic-vegas-slot.css`
+- `js/app.js`
+- `js/free-slots-game.js`
+- `js/lucky-lou-dialog.js`
+- `js/site-search.js`
+- `images/lucky-lou-icon.svg`
+- `images/lucky-lou-social.svg`
+
+Checks run:
+
+- Read repo workflow and control files first.
+- Confirmed the site purpose and current static HTML/CSS/JS stack.
+- Confirmed every public HTML page has a title, meta description, canonical URL, H1, main navigation, and footer.
+- Confirmed public sitemap entries correspond to existing public pages.
+- Confirmed `robots.txt` exists, allows public crawl, blocks `/go/`, and points to the public sitemap.
+- Checked internal `.html`, `.css`, `.js`, favicon, and SVG asset references used by public pages.
+- Checked public contact copy and confirmed `slotsfreeusa@gmail.com` appears where contact is needed.
+- Checked trust/legal pages: privacy, terms, affiliate disclosure, responsible play, how-we-review, partner inquiry, and contact pages.
+- Checked for stale pending contact copy, unsupported winning claims, live ads, live affiliate links, tracking scripts, payment code, credentials, API keys, ordering integrations, and public AI.
+- Confirmed monetization remains inactive and conditional until partner approval, disclosure, and tracking rules are confirmed.
+
+Issues fixed:
+
+- Normalized `contact.html` footer links to match the consolidated footer structure used across the rest of the site.
+
+## Files / Pages Complete
+
+- Homepage with disclosure bar, SEO metadata, Open Graph tags, schema markup, navigation, free-play and trust positioning.
+- Free-play demo page and supporting game scripts/CSS.
+- SEO guide pages for free slots, no-download slots, slot terms, free spins, casino bonus terms, beginner slots, sweepstakes casinos, and social casinos.
+- Review and trust pages: reviews, how-we-review, responsible-gaming, affiliate-disclosure, privacy, terms, partner-with-us, contact.
+- Static search page and search index script.
+- Sitemap and robots files.
+- Affiliate workflow docs and approval gate docs.
+
+## Files / Pages Needing Work
+
+- No required safe file fixes remain from the non-visual audit.
+- Visual QA still needs a browser pass before public launch or partner promotion.
+- Future SEO expansion can continue only after the affiliate workflow docs remain current.
+- Partner review cards, ads, affiliate links, tracking links, and email signup must remain inactive until approval and privacy/disclosure checks are complete.
+
+## SEO Status
+
+- Public pages checked have titles, meta descriptions, canonical URLs, H1s, crawlable internal links, and trust language.
+- Sitemap includes the current public page set.
+- Search page and `js/site-search.js` include the public guide/trust pages.
+- No new SEO page is required from this audit pass.
+
+## Sitemap / Robots Status
+
+- `sitemap.xml` exists and lists the current public pages.
+- `robots.txt` exists, allows public crawling, disallows `/go/`, and references `https://slotsfreeusa.com/sitemap.xml`.
+
+## Footer / Navigation Status
+
+- Header navigation is present on all checked public HTML pages.
+- Footers are present on all checked public HTML pages.
+- `contact.html` footer was normalized during this audit to match the consolidated footer pattern.
+- No duplicate footer navigation blocks were found in the checked public pages.
+
+## Trust / Legal Status
+
+- Privacy, terms, affiliate disclosure, responsible play, how-we-review, partner-with-us, and contact pages exist.
+- Pages consistently state that SlotsFreeUSA does not operate gambling, accept bets, process payments, manage outside accounts, issue payouts, or promise winnings.
+- Contact email is `slotsfreeusa@gmail.com`.
+
+## Monetization Status
+
+- Monetization is inactive.
+- No live ads, live affiliate links, live tracking scripts, payment code, credentials, API keys, ordering integrations, or public AI were found in the checked files.
+- Future partner links must stay blocked until partner approval, destination URL review, terms review, age/location rules, tracking rules, and disclosure placement are confirmed.
+
+## QA Status
+
+- Non-visual Universal Codex Repo Audit Workflow passed on 2026-05-28 after the footer consistency fix.
+- Browser/mobile visual QA remains pending.
+- Partner-application workflow remains blocked by account/login/private business decision requirements, not by the codebase.
 
 ## Safe Build Queue Review
 
@@ -107,14 +223,22 @@ Completed checks and safe work:
 - No email signup should collect data until email provider, consent language, and privacy policy updates are ready.
 - No public AI feature should be added until there is a clear trust, revenue, privacy, and safety reason.
 
+## Real Blockers
+
+- Local Git is unavailable in this desktop shell, but GitHub connector commits are working for this repository.
+- Affiliate applications and partner setup require account/login/private business decisions.
+- Live affiliate tracking, ads, payments, credentials, and public AI remain blocked without direct approval and required compliance/privacy checks.
+- Visual QA is still pending and requires a browser pass before launch promotion.
+
 ## Next Safe Queue
 
-1. Submit BetMGM application through the official portal when account access is available, then update `AFFILIATE-SUBMISSION-LOG.md` and `FOLLOW-UP-CALENDAR.md`.
-2. Send B2Spin / SpinBlitz inquiry from `slotsfreeusa@gmail.com`, then update `AFFILIATE-SUBMISSION-LOG.md` and `FOLLOW-UP-CALENDAR.md`.
-3. Submit RSI / BetRivers contact form through the official RSI site, then update `AFFILIATE-SUBMISSION-LOG.md` and `FOLLOW-UP-CALENDAR.md`.
-4. Keep Caesars on hold until an official verified affiliate path is found.
-5. Keep all monetization inactive until approval and disclosure checks are complete.
-6. Continue safe SEO content expansion only after affiliate workflow docs remain current.
+1. Run browser/mobile visual QA on the current public page set.
+2. Submit BetMGM application through the official portal when account access is available, then update `AFFILIATE-SUBMISSION-LOG.md` and `FOLLOW-UP-CALENDAR.md`.
+3. Send B2Spin / SpinBlitz inquiry from `slotsfreeusa@gmail.com`, then update `AFFILIATE-SUBMISSION-LOG.md` and `FOLLOW-UP-CALENDAR.md`.
+4. Submit RSI / BetRivers contact form through the official RSI site, then update `AFFILIATE-SUBMISSION-LOG.md` and `FOLLOW-UP-CALENDAR.md`.
+5. Keep Caesars on hold until an official verified affiliate path is found.
+6. Keep all monetization inactive until approval and disclosure checks are complete.
+7. Continue safe SEO content expansion only after affiliate workflow docs remain current.
 
 ## Stop Points
 
