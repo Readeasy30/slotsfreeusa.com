@@ -39,6 +39,9 @@ The site must stay clear that it does not operate gambling, accept bets, process
 
 - Homepage has SEO title, meta description, canonical URL, Open Graph tags, schema markup, free-slot CTA, disclosure bar, Lucky Lou section, newsletter placeholder, review cards, and FAQ content.
 - Review hub has comparison criteria and future partner review structure.
+- Added `how-we-review.html` as a public review-standards and partner-trust page.
+- Linked the review hub and homepage footer to `how-we-review.html`.
+- Added `how-we-review.html` to `sitemap.xml`.
 - Affiliate disclosure page was strengthened with clearer revenue, review, and compliance language.
 - Contact page was upgraded for reader feedback, business inquiries, correction requests, and privacy-safe limits.
 - Sitemap now includes `lastmod` dates.
