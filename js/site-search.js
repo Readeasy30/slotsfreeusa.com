@@ -24,6 +24,12 @@ const searchPages = [
     keywords: 'free spins explained free spin offers eligible games expiration playthrough rules location'
   },
   {
+    title: 'Casino Bonus Terms Explained',
+    url: 'casino-bonus-terms-explained.html',
+    summary: 'Learn welcome bonuses, free spins, playthrough, rollover, expiration dates, eligible games, and location rules.',
+    keywords: 'casino bonus terms explained welcome bonus playthrough rollover expiration eligible games location rules'
+  },
+  {
     title: 'Best Free Slots for Beginners',
     url: 'best-free-slots-for-beginners.html',
     summary: 'Start with simple 3-reel slots, fruit symbols, and free-play demos.',
