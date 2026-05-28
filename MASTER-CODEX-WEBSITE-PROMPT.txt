@@ -1,0 +1,4 @@
+Use MASTER-CODEX-WEBSITE-PROMPT.
+
+Website-specific add-on:
+This repo is for SlotsFreeUSA.com. Prioritize affiliate readiness, casino/sweepstakes compliance language, responsible-play pages, review controls, and no live affiliate links until approval.
