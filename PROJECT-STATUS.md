@@ -110,6 +110,7 @@ Issues fixed:
 - Sitemap and robots files.
 - Affiliate workflow docs and approval gate docs.
 - Visual QA checklist for mobile, desktop, game, search, footer, trust, and partner-readiness review.
+- Next action runbook for visual QA, affiliate submissions, approval gates, and post-approval safety checks.
 
 ## Files / Pages Needing Work
 
@@ -153,6 +154,7 @@ Issues fixed:
 
 - Non-visual Universal Codex Repo Audit Workflow passed on 2026-05-28 after the footer consistency fix.
 - `VISUAL-QA-CHECKLIST.md` was added on 2026-05-28 to guide browser/mobile review before public promotion or partner follow-up.
+- `SLOTSFREEUSA-NEXT-ACTION-RUNBOOK.md` was added on 2026-05-28 to define the exact sequence for visual QA, affiliate applications, approval gate checks, and future content growth.
 - Browser/mobile visual QA remains pending.
 - Partner-application workflow remains blocked by account/login/private business decision requirements, not by the codebase.
 
@@ -178,6 +180,7 @@ Completed checks and safe work:
 - Clarified `AFFILIATE-SUBMISSION-LOG.md` with follow-up windows, approval gates, and no-live-link rules.
 - Updated `README.md` to list the affiliate workflow docs and approval checklist.
 - Added `VISUAL-QA-CHECKLIST.md` for mobile, desktop, free-slot-game, static-search, trust-page, footer, legal, and promotion-readiness checks.
+- Added `SLOTSFREEUSA-NEXT-ACTION-RUNBOOK.md` to prevent random extra build work and keep the next actions focused on visual QA, affiliate submissions, approval gates, and safe future SEO growth.
 
 ## Current Affiliate Workflow Status
 
@@ -226,7 +229,8 @@ Completed checks and safe work:
 ## Next Safe Queue
 
 1. Run browser/mobile visual QA using `VISUAL-QA-CHECKLIST.md`.
-2. Apply/register at BetMGM Partners through the official portal, then record the result in `AFFILIATE-SUBMISSION-LOG.md`.
-3. Send B2Spin / SpinBlitz email from `slotsfreeusa@gmail.com`, then record the result.
-4. Submit RSI / BetRivers contact form, then record the result.
-5. Keep all monetization inactive until approval and disclosure checks are complete.
+2. Use `SLOTSFREEUSA-NEXT-ACTION-RUNBOOK.md` for the exact next sequence.
+3. Apply/register at BetMGM Partners through the official portal, then record the result in `AFFILIATE-SUBMISSION-LOG.md`.
+4. Send B2Spin / SpinBlitz email from `slotsfreeusa@gmail.com`, then record the result.
+5. Submit RSI / BetRivers contact form, then record the result.
+6. Keep all monetization inactive until approval and disclosure checks are complete.
