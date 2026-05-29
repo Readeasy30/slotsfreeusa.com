@@ -109,6 +109,7 @@ Issues fixed:
 - Static search page and search index script.
 - Sitemap and robots files.
 - Affiliate workflow docs and approval gate docs.
+- Visual QA checklist for mobile, desktop, game, search, footer, trust, and partner-readiness review.
 
 ## Files / Pages Needing Work
 
@@ -151,6 +152,7 @@ Issues fixed:
 ## QA Status
 
 - Non-visual Universal Codex Repo Audit Workflow passed on 2026-05-28 after the footer consistency fix.
+- `VISUAL-QA-CHECKLIST.md` was added on 2026-05-28 to guide browser/mobile review before public promotion or partner follow-up.
 - Browser/mobile visual QA remains pending.
 - Partner-application workflow remains blocked by account/login/private business decision requirements, not by the codebase.
 
@@ -175,6 +177,7 @@ Completed checks and safe work:
 - Clarified `AFFILIATE-APPLICATION-TRACKER.md` so BetMGM, B2Spin / SpinBlitz, and RSI / BetRivers have clear application/contact instructions and Caesars remains Hold until verified.
 - Clarified `AFFILIATE-SUBMISSION-LOG.md` with follow-up windows, approval gates, and no-live-link rules.
 - Updated `README.md` to list the affiliate workflow docs and approval checklist.
+- Added `VISUAL-QA-CHECKLIST.md` for mobile, desktop, free-slot-game, static-search, trust-page, footer, legal, and promotion-readiness checks.
 
 ## Current Affiliate Workflow Status
 
@@ -212,46 +215,18 @@ Completed checks and safe work:
 ## Known Blockers
 
 - Local shell does not have `git` available, so this session used the GitHub connector for direct file commits.
+- Browser/mobile visual QA is still pending and should use `VISUAL-QA-CHECKLIST.md`.
 - Separate `css/search.css` creation was previously blocked by the connector safety filter. Search page styling remains inline.
 - Actual affiliate application submission may require official portal login, affiliate account setup, business details, tax/payment details, or partner-manager approval.
 - BetMGM application cannot be marked submitted until the official portal submission is completed.
 - B2Spin / SpinBlitz cannot be marked contacted until the email is sent from `slotsfreeusa@gmail.com`.
 - RSI / BetRivers cannot be marked contacted until the official contact form is submitted.
 - Caesars remains blocked until an official verified affiliate path is found.
-- No live affiliate links should be added until partner terms, age rules, location rules, tracking, and disclosures are checked.
-- No live ad scripts should be added until ad network approval and privacy requirements are ready.
-- No email signup should collect data until email provider, consent language, and privacy policy updates are ready.
-- No public AI feature should be added until there is a clear trust, revenue, privacy, and safety reason.
-
-## Real Blockers
-
-- Local Git is unavailable in this desktop shell, but GitHub connector commits are working for this repository.
-- Affiliate applications and partner setup require account/login/private business decisions.
-- Live affiliate tracking, ads, payments, credentials, and public AI remain blocked without direct approval and required compliance/privacy checks.
-- Visual QA is still pending and requires a browser pass before launch promotion.
 
 ## Next Safe Queue
 
-1. Run browser/mobile visual QA on the current public page set.
-2. Submit BetMGM application through the official portal when account access is available, then update `AFFILIATE-SUBMISSION-LOG.md` and `FOLLOW-UP-CALENDAR.md`.
-3. Send B2Spin / SpinBlitz inquiry from `slotsfreeusa@gmail.com`, then update `AFFILIATE-SUBMISSION-LOG.md` and `FOLLOW-UP-CALENDAR.md`.
-4. Submit RSI / BetRivers contact form through the official RSI site, then update `AFFILIATE-SUBMISSION-LOG.md` and `FOLLOW-UP-CALENDAR.md`.
-5. Keep Caesars on hold until an official verified affiliate path is found.
-6. Keep all monetization inactive until approval and disclosure checks are complete.
-7. Continue safe SEO content expansion only after affiliate workflow docs remain current.
-
-## Stop Points
-
-Stop only for:
-
-- missing repository write permission
-- private keys or credentials
-- payment setup
-- live ad scripts
-- live affiliate tracking
-- account sign-ins
-- major framework changes
-- major code deletion
-- compliance-risk claims
-- uncontrolled public AI
-- unclear production risk
+1. Run browser/mobile visual QA using `VISUAL-QA-CHECKLIST.md`.
+2. Apply/register at BetMGM Partners through the official portal, then record the result in `AFFILIATE-SUBMISSION-LOG.md`.
+3. Send B2Spin / SpinBlitz email from `slotsfreeusa@gmail.com`, then record the result.
+4. Submit RSI / BetRivers contact form, then record the result.
+5. Keep all monetization inactive until approval and disclosure checks are complete.
