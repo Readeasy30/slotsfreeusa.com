@@ -23,6 +23,8 @@ Trust/legal pages passed browser check. Repo-side static trust/legal check also 
 
 Repo-side static layout sanity check passed for responsive menu, grid/card stacking, footer stacking, table overflow, full-width mobile buttons, and Classic Vegas slot page one-column behavior.
 
+Repo-side mobile menu JavaScript check passed: menu toggles, `aria-expanded` updates, link taps close the menu, and Escape closes the menu.
+
 Manual mobile and desktop browser layout checks remain pending before public promotion, affiliate follow-up, or monetization.
 
 ## Do Not Add During QA
@@ -45,6 +47,7 @@ QA should test the current public site only.
 |---|---|---|---|---|---|
 | 2026-05-28 | Gerry | Browser | `https://slotsfreeusa.com/` plus five checked pages | PASS | Main domain loaded. Gerry reported all five checked pages passed. |
 | 2026-05-28 | Static repo check | CSS / responsive rules | `css/style.css`; `css/classic-vegas-slot.css` | PASS / STATIC | Mobile nav, stacked footer, cards/grids, table overflow, full-width mobile buttons, and slot page one-column behavior are present in CSS. Browser layout check still needed. |
+| 2026-05-28 | Static repo check | Mobile menu JavaScript | `js/app.js` | PASS / STATIC | Menu toggles, `aria-expanded` updates, nav links close the menu, and Escape closes it. Browser layout check still needed. |
 |  |  | Mobile 360-390px |  | Pending |  |
 |  |  | Mobile 414-430px |  | Pending |  |
 |  |  | Tablet 768px |  | Pending |  |
@@ -96,6 +99,7 @@ Check these pages first:
 | Date | Check | Pass/Fail | Notes |
 |---|---|---|---|
 | 2026-05-28 | Responsive CSS sanity check | PASS / STATIC | Main stylesheet includes mobile menu, one-column grids/footer, table horizontal overflow, full-width buttons, and responsive section spacing. Slot stylesheet collapses the game layout to one column under 900px and stacks controls under 520px. |
+| 2026-05-28 | Mobile menu behavior check | PASS / STATIC | `js/app.js` toggles the menu, updates `aria-expanded`, closes after nav link taps, and closes on Escape. |
 
 ## Pass Criteria Before Promotion
 
