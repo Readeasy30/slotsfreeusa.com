@@ -1,31 +1,34 @@
 # Current Codex Task — SlotsFreeUSA
 
-Last updated: 2026-05-28
+Last updated: 2026-05-29
 
 ## Repository
 
 `Wholelychit/slotsfreeusa.com`
 
-## Current Focus
+## Current focus
 
-Continue the safe affiliate workflow for SlotsFreeUSA without adding live links, tracking scripts, ad scripts, payment code, public AI, or credentials.
+Continue the safe affiliate/media workflow for SlotsFreeUSA without adding live links, tracking scripts, ad scripts, payment code, public AI, upload systems, accounts, or credentials.
+
+Operate through ChatGPT 5.5, Codex, GitHub, and Cloudflare Pages. Do not require local Git, terminal Git, VS Code, or manual file editing.
 
 SlotsFreeUSA is a commercial affiliate/media site, not a charity site. Keep the language focused on qualified adult traffic, partner reviews, sweepstakes/social casino guides, bonus explainers, CPA, RevShare, hybrid deals, sponsorships, and display advertising.
 
-## Completed This Session
+## Completed workflow setup
 
-- B2Spin / SpinBlitz outreach email was sent to the verified B2Spin partner/contact path.
-- `AFFILIATE-SUBMISSION-LOG.md` was updated with B2Spin send date, follow-up window, and planned follow-up date.
-- Live affiliate links remain inactive.
+- `AGENTS.md` standardized with the no-local-Git operating rule.
+- `CODEX-WORKFLOW.md` standardized with direct Codex/GitHub repository workflow.
+- Cloudflare rule confirmed: GitHub publishes to Cloudflare Pages; no manual Cloudflare file uploads.
+- Live affiliate links remain inactive unless Gerry directly approves specific links/programs.
 
-## Important Current Status
+## Important current status
 
 - B2Spin / SpinBlitz: Sent 2026-05-28. Wait for reply. Follow up once on 2026-06-05 only if no reply.
 - BetMGM Partners: Ready, but official portal requires registration/login/captcha/private account steps. Do not mark submitted until Gerry completes the portal submission.
 - RSI / BetRivers: Ready to contact through the official Rush Street Interactive contact path to request the correct affiliate/media partner path.
 - Caesars: Hold until an official Caesars-controlled affiliate path is verified.
 
-## Safe Work Codex Can Do Now
+## Safe work Codex can do now
 
 1. Review these files first:
    - `README.md`
@@ -38,36 +41,39 @@ SlotsFreeUSA is a commercial affiliate/media site, not a charity site. Keep the 
    - `AFFILIATE-APPLICATION-TRACKER.md`
    - `FOLLOW-UP-CALENDAR.md`
 
-2. Update `AFFILIATE-APPLICATION-TRACKER.md` if needed so it matches the current state:
+2. Update affiliate tracker/status files if needed so they match the current state:
    - B2Spin / SpinBlitz = Sent 2026-05-28; waiting for reply; planned follow-up 2026-06-05.
    - BetMGM = Ready; blocked by official portal registration/login/captcha/private account steps.
    - RSI / BetRivers = Ready to contact; official contact path needed before application.
    - Caesars = Hold until verified.
 
-3. Try a light update to `FOLLOW-UP-CALENDAR.md` if connector rules allow it:
-   - B2Spin / SpinBlitz original send date: 2026-05-28.
-   - 5 business day date: 2026-06-04.
-   - 7 business day date: 2026-06-08.
-   - Planned follow-up date: 2026-06-05.
-   - Follow-up sent: No.
-   - Reply received: No.
+3. Do a quick static check that public pages still do not contain live affiliate links, live tracking scripts, live ad scripts, payment forms, login systems, upload systems, or unsupported gambling claims.
 
-4. Do a quick static check that public pages still do not contain live affiliate links, live tracking scripts, or live ad scripts.
+4. Continue safe site improvements:
+   - homepage clarity
+   - mobile layout
+   - navigation/footer consistency
+   - robots.txt and sitemap.xml
+   - page titles/meta/canonical URLs
+   - accessibility basics
+   - safe content pages and disclosure pages
 
-5. Do not add live monetization.
-
-## Stop Points
+## Stop points
 
 Stop before:
 
 - live affiliate link placement
 - live tracking link placement
-- live ad script
+- live ad scripts
 - payment setup
 - private credentials
 - email capture setup
+- upload systems
+- user accounts
 - portal submissions that require login, captcha, tax, payment, or account details
 - unsupported legal/gambling claims
+- major framework changes
+- major deletion of working code
 
 ## Reporting
 
