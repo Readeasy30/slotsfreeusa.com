@@ -6,7 +6,7 @@ Last updated: 2026-05-28
 
 Codex is the main workflow for routine SlotsFreeUSA repository editing.
 
-SlotsFreeUSA must stay simple, mobile-first, beginner-friendly, and compliance-aware.
+SlotsFreeUSA must stay simple, mobile-first, beginner-friendly, commercial, partner-ready, and compliance-aware.
 
 ## Current Stack
 
@@ -22,9 +22,36 @@ Do not convert this project to React, Vite, Next.js, TypeScript, npm, or any bui
 
 ## Why Codex Is Primary
 
-Codex should handle routine repo work directly because it can read the repo, make safe file edits, and commit useful changes without making Gerry manually paste, create, replace, or update files.
+Codex should handle routine repo work directly because it can read the repo, make safe file edits, place new files where they belong, and commit useful changes without making Gerry manually paste, create, replace, or update files.
 
-The ChatGPT GitHub connector may show internal write-action labels like `create_file` or `update_file`. Those labels can be confusing. Use that connector mainly for small reads, checks, reviews, or emergency single-file edits when Codex is unavailable.
+The ChatGPT GitHub connector can show internal write-action labels like `create_file` or `update_file`. It may also pause for confirmation or block wording that looks sensitive. That is a platform safety layer, not a project workflow.
+
+Use Codex as the normal repo-editing path to reduce thumbs-up pauses and manual file-placement confusion.
+
+Use the ChatGPT GitHub connector mainly for:
+
+- small reads
+- quick checks
+- repo status review
+- emergency single-file edits
+- handoff files for Codex
+
+Do not make Gerry manually create files because a tool label says `create_file`. That label means the AI is requesting permission to create or update the file.
+
+## Routine File Placement Rule
+
+When safe work is needed, Codex should place files directly in the correct repo location.
+
+Examples:
+
+- workflow docs go in the repo root
+- public pages go in the repo root as `.html`
+- styles go in `css/`
+- scripts go in `js/`
+- image assets go in `images/`
+- status, tracker, and checklist files go in the repo root
+
+If a file already exists, Codex should update it instead of creating duplicates.
 
 ## Required Read Order
 
@@ -37,6 +64,8 @@ Before editing, read these files when they exist:
 5. `FILE-MANAGEMENT.md`
 6. `PROJECT-STATUS.md`
 7. `CODEX-WORKFLOW.md`
+8. `FOCUS-COMMERCIAL-POSITIONING.md`
+9. `CODEX-CURRENT-TASK.md`
 
 ## Safe Work Allowed
 
@@ -56,6 +85,8 @@ Codex may directly handle:
 - disclosure page improvements
 - safer-play education pages
 - affiliate planning documents before live monetization
+- partner outreach templates
+- tracker and follow-up schedule updates
 
 ## Do Not Change Without Direct Approval
 
@@ -76,22 +107,26 @@ Do not do these without direct approval:
 
 ## SlotsFreeUSA Content Rules
 
-Keep content clear, beginner-friendly, adult-focused, and honest about risk.
+Keep content clear, beginner-friendly, adult-focused, commercial, and honest about risk.
 
-The site may discuss free slot-style entertainment, social casino reviews, bonus explainers, safer play education, and partner links.
+SlotsFreeUSA is a commercial affiliate/media site. Do not make it sound like a charity, nonprofit, public-service project, or classroom education site.
 
-The site must not operate gambling, accept bets, process payments, or promise winnings.
+The site may discuss free slot-style entertainment, social casino reviews, sweepstakes-style guides, bonus explainers, safer-play information, and future approved partner placements.
 
-Use clear FTC-style disclosure language when affiliate or partner links are discussed.
+The site must not operate gambling, accept bets, process payments, issue prizes, redeem prizes, process withdrawals, or promise winnings.
+
+Use clear disclosure language when affiliate, sponsorship, or partner placements are discussed.
 
 ## Current Safe Queue
 
 1. Keep the site static and mobile-first.
-2. Improve beginner guides and safer-play pages.
-3. Keep affiliate disclosure, privacy, terms, contact, and responsible-gaming pages available.
-4. Check homepage title, meta description, canonical URL, navigation, footer, robots.txt, and sitemap.xml.
-5. Add useful review/topic pages gradually.
-6. Avoid live ads, payment handling, private keys, tracking, and compliance-risk changes until intentionally configured.
+2. Keep the commercial affiliate/media positioning clear.
+3. Keep B2Spin / SpinBlitz status marked sent and waiting for reply.
+4. Keep B2Spin follow-up scheduled for 2026-06-05 only if no reply.
+5. Keep BetMGM marked ready but blocked by official portal registration steps.
+6. Prepare RSI / BetRivers contact-form copy but do not mark submitted until the form is actually submitted.
+7. Keep Caesars on hold until an official path is verified.
+8. Avoid live ads, payment handling, private keys, tracking, and compliance-risk changes until intentionally configured.
 
 ## Reporting Rule
 
