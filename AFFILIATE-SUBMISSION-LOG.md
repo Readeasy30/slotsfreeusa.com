@@ -2,7 +2,7 @@
 
 Last updated: 2026-05-28
 
-Use this file after each affiliate application, contact form, or partner email is sent.
+Use this file after each affiliate application, contact form, or partner email is sent or attempted.
 
 Public contact email: `slotsfreeusa@gmail.com`
 
@@ -10,6 +10,7 @@ Related workflow files:
 
 - `AFFILIATE-APPLICATION-TRACKER.md` tracks partner status and next actions.
 - `AFFILIATE-APPLICATION-FORM-ANSWERS.md` stores safe form answers and outreach copy.
+- `PARTNER-OUTREACH-LETTERS.md` stores the current commercial outreach letters.
 - `FOLLOW-UP-CALENDAR.md` plans one 5 to 7 business day follow-up.
 - `AFFILIATE-APPROVAL-CHECKLIST.md` controls the pre-live approval gate.
 - `PARTNER-CHECKLIST.md` controls partner review quality and removal rules.
@@ -22,13 +23,14 @@ Related workflow files:
 4. Send only one polite follow-up after 5 to 7 business days unless the partner replies.
 5. If rejected, mark rejected and do not keep sending repeated messages.
 6. Keep Caesars on hold until an official verified affiliate path is found.
+7. If an email or portal action is blocked, record it as attempted but not sent.
 
 ## Current Submission Queue
 
 | Priority | Partner | Path | Status | Action |
 |---|---|---|---|---|
 | 1 | BetMGM Partners | Official BetMGM Partners portal | Ready | Register/apply using `AFFILIATE-APPLICATION-FORM-ANSWERS.md`; then record confirmation and schedule follow-up. |
-| 2 | B2Spin / SpinBlitz | Email to support@b2spin.com | Ready | Send prepared email from `slotsfreeusa@gmail.com`; then record send date and schedule follow-up. |
+| 2 | B2Spin / SpinBlitz | Email to support@b2spin.com | Ready - draft blocked before send | Use `PARTNER-OUTREACH-LETTERS.md`; send manually from `slotsfreeusa@gmail.com` if needed; then record send date and schedule follow-up. |
 | 3 | Rush Street Interactive / BetRivers | Official RSI contact form | Ready | Ask for correct affiliate/media partner application path; then record reply path before applying. |
 | 4 | Caesars | Not verified | Hold | Do not submit until an official Caesars-controlled affiliate path is verified. |
 
@@ -37,7 +39,7 @@ Related workflow files:
 | Date Sent | Partner | Method | Status After Sending | Confirmation / Reply Path | Follow-Up Window | Planned Follow-Up Date | Notes |
 |---|---|---|---|---|---|---|---|
 |  | BetMGM Partners | Portal registration | Not sent yet |  | 5 to 7 business days after submit |  | Apply at official BetMGM Partners portal only. |
-|  | B2Spin / SpinBlitz | Email to support@b2spin.com | Not sent yet |  | 5 to 7 business days after send |  | Send from `slotsfreeusa@gmail.com`. |
+| 2026-05-28 attempted, not sent | B2Spin / SpinBlitz | Email to support@b2spin.com | Draft/send blocked by Gmail safety layer before sending | No confirmation because no email was sent | Do not schedule until actually sent |  | Outreach copy is ready in `PARTNER-OUTREACH-LETTERS.md`; send from `slotsfreeusa@gmail.com` manually if needed. |
 |  | RSI / BetRivers | Official RSI contact form | Not sent yet |  | 5 to 7 business days after submit |  | Ask for correct affiliate/media partner contact. |
 |  | Caesars | Not verified | Hold |  | Hold | Hold | No guessed portals or third-party pages. |
 
@@ -47,11 +49,11 @@ Subject: Follow-Up - SlotsFreeUSA.com Partnership Inquiry
 
 Hello,
 
-I am following up on my partnership inquiry for SlotsFreeUSA.com.
+I am following up on my previous partnership inquiry for SlotsFreeUSA.com.
 
-SlotsFreeUSA is a public, mobile-first information website for adults 21+ focused on free slot-style play, social casino education, bonus explainers, review standards, and responsible-play information.
+SlotsFreeUSA is a commercial affiliate/media site for adults 21+ in the United States, focused on free slot-style entertainment, sweepstakes casinos, social casinos, bonus explainers, partner reviews, and qualified traffic for approved partners.
 
-If your program is open to affiliate, media, sponsorship, CPA, RevShare, or hybrid partnerships, I would appreciate the correct application link or contact person.
+We are interested in CPA, RevShare, hybrid, sponsorship, featured placement, display advertising, or other approved partner opportunities if the site is a fit.
 
 Website: https://slotsfreeusa.com
 Partner page: https://slotsfreeusa.com/partner-with-us.html
