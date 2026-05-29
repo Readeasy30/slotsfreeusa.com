@@ -12,6 +12,12 @@ const searchPages = [
     keywords: 'free slots no download slot types fruit slots classic slots beginner volatility'
   },
   {
+    title: 'Online Slot Selection Guide',
+    url: 'best-online-slots-guide.html',
+    summary: 'Learn how beginners can compare slot games by simplicity, phone layout, volatility, RTP, free-play mode, terms, and safer-play controls.',
+    keywords: 'online slot selection guide compare slot games beginner mobile layout volatility rtp free play bonus terms paylines symbols safe play'
+  },
+  {
     title: 'No Download Slots',
     url: 'no-download-slots.html',
     summary: 'Learn how browser-based slots work and what to check before playing on outside sites.',
@@ -63,7 +69,7 @@ const searchPages = [
     title: 'Reviews Hub',
     url: 'reviews.html',
     summary: 'Review status labels, comparison criteria, and future partner review rules.',
-    keywords: 'reviews casino social casino partner status approved pending paused removed checklist'
+    keywords: 'reviews casino social casino partner status approved pending paused removed checklist slot selection'
   },
   {
     title: 'Online Casino Review Checklist',
@@ -197,7 +203,7 @@ function renderResults() {
     const title = document.createElement('h3');
     title.textContent = 'Try a simpler search';
     const text = document.createElement('p');
-    text.textContent = 'Try words like free slots, no download slots, free spins, slot terms, volatility, bonuses, social casino bonus, sweepstakes, gold coins, sweeps coins, reviews, checklist, contact, or responsible play.';
+    text.textContent = 'Try words like free slots, slot selection, no download slots, free spins, slot terms, volatility, bonuses, social casino bonus, sweepstakes, gold coins, sweeps coins, reviews, checklist, contact, or responsible play.';
     empty.appendChild(title);
     empty.appendChild(text);
     searchResults.appendChild(empty);
