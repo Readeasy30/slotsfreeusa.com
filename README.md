@@ -63,6 +63,10 @@ No React, no Vite, no build tools, and no unnecessary framework complexity.
 - `REVIEW-TEMPLATE.md`
 - `DEPLOYMENT-NOTES.md`
 - `MANUAL-QA-CHECKLIST.md`
+- `VISUAL-QA-CHECKLIST.md`
+- `MOBILE-DESKTOP-QA-RUN-SHEET.md`
+- `LIVE-QA-LOG.md`
+- `SLOTSFREEUSA-NEXT-ACTION-RUNBOOK.md`
 - `PARTNER-CHECKLIST.md`
 - `FOCUS-COMMERCIAL-POSITIONING.md`
 - `PARTNER-OUTREACH-LETTERS.md`
@@ -99,6 +103,14 @@ Website code stays in this repository.
 Marketing systems can connect through the separate marketing repository.
 
 AI and Codex should update routine safe files directly instead of asking Gerry to paste code manually.
+
+## Current Safe Gate
+
+Before public promotion or affiliate follow-up, finish the manual mobile/desktop QA pass using:
+
+- `MOBILE-DESKTOP-QA-RUN-SHEET.md`
+- `VISUAL-QA-CHECKLIST.md`
+- `LIVE-QA-LOG.md`
 
 ## Partner Rule
 
