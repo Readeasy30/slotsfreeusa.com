@@ -14,6 +14,18 @@ Operate through ChatGPT 5.5, Codex, GitHub, and Cloudflare Pages. Do not require
 
 SlotsFreeUSA is a commercial affiliate/media site, not a charity site. Keep the language focused on qualified adult traffic, partner reviews, sweepstakes/social casino guides, bonus explainers, CPA, RevShare, hybrid deals, sponsorships, and display advertising.
 
+## Current build checkpoint
+
+Safe production build continued on 2026-05-29.
+
+Completed in the latest build batch:
+
+- Added `online-casino-review-checklist.html` as a new evergreen trust/SEO page.
+- Added FAQ schema, title, meta description, canonical URL, disclosure bar, mobile navigation, footer, and safe compliance language to the new checklist page.
+- Linked the checklist from `reviews.html` hero buttons, review category card, bottom trust card, and footer.
+- Added the checklist page to `js/site-search.js` so static search can find it by checklist, legal casino, social casino, age rules, location rules, bonus terms, support, safer play, and disclosure terms.
+- Added the checklist page to `sitemap.xml` and updated 2026-05-29 lastmod entries for changed public pages.
+
 ## Completed workflow setup
 
 - `AGENTS.md` standardized with the no-local-Git operating rule.
@@ -28,7 +40,7 @@ SlotsFreeUSA is a commercial affiliate/media site, not a charity site. Keep the 
 - RSI / BetRivers: Ready to contact through the official Rush Street Interactive contact path to request the correct affiliate/media partner path.
 - Caesars: Hold until an official Caesars-controlled affiliate path is verified.
 
-## Safe work Codex can do now
+## Safe work Codex can do next
 
 1. Review these files first:
    - `README.md`
@@ -41,15 +53,9 @@ SlotsFreeUSA is a commercial affiliate/media site, not a charity site. Keep the 
    - `AFFILIATE-APPLICATION-TRACKER.md`
    - `FOLLOW-UP-CALENDAR.md`
 
-2. Update affiliate tracker/status files if needed so they match the current state:
-   - B2Spin / SpinBlitz = Sent 2026-05-28; waiting for reply; planned follow-up 2026-06-05.
-   - BetMGM = Ready; blocked by official portal registration/login/captcha/private account steps.
-   - RSI / BetRivers = Ready to contact; official contact path needed before application.
-   - Caesars = Hold until verified.
+2. Do a quick static check that public pages still do not contain live affiliate links, live tracking scripts, live ad scripts, payment forms, login systems, upload systems, or unsupported gambling claims.
 
-3. Do a quick static check that public pages still do not contain live affiliate links, live tracking scripts, live ad scripts, payment forms, login systems, upload systems, or unsupported gambling claims.
-
-4. Continue safe site improvements:
+3. Continue safe site improvements:
    - homepage clarity
    - mobile layout
    - navigation/footer consistency
@@ -57,6 +63,12 @@ SlotsFreeUSA is a commercial affiliate/media site, not a charity site. Keep the 
    - page titles/meta/canonical URLs
    - accessibility basics
    - safe content pages and disclosure pages
+
+4. Good next safe content pages:
+   - `best-online-slots-guide.html`
+   - `social-casino-bonus-guide.html`
+   - `slot-volatility-explained.html`
+   - `sweepstakes-coins-vs-gold-coins.html`
 
 ## Stop points
 
