@@ -30,6 +30,12 @@ Completed in the latest build batches:
 - Linked the coins guide from `sweepstakes-casino-guide.html` hero buttons, sweepstakes basics card, checklist copy, best-next-pages section, and footer.
 - Added the coins guide to `js/site-search.js` so static search can find Gold Coins, Sweeps Coins, Sweepstakes Coins, coin systems, promotional coins, redemption rules, and social casino coin searches.
 - Added the coins guide to `sitemap.xml` and updated 2026-05-29 lastmod entries for changed public pages.
+- Added `slot-volatility-explained.html` as an evergreen beginner slot education and safer-play SEO page.
+- Added FAQ schema, title, meta description, canonical URL, disclosure bar, mobile navigation, footer, volatility comparison table, beginner checklist, and safe risk language to the volatility guide.
+- Linked the volatility guide from `slot-terms-explained.html` hero buttons, glossary cards, volatility table row, best-next-pages section, and footer.
+- Linked the volatility guide from `free-slots.html` hero buttons, guide card grid, visitor safety note, and footer.
+- Added the volatility guide to `js/site-search.js` so static search can find low volatility, medium volatility, high volatility, RTP, variance, dry spell, and risk terms.
+- Added the volatility guide to `sitemap.xml` and updated 2026-05-29 lastmod entries for changed public pages.
 
 ## Completed workflow setup
 
@@ -70,10 +76,10 @@ Completed in the latest build batches:
    - safe content pages and disclosure pages
 
 4. Good next safe content pages:
-   - `slot-volatility-explained.html`
    - `social-casino-bonus-guide.html`
    - `best-online-slots-guide.html`
    - `mobile-slots-guide.html`
+   - `slot-rtp-explained.html`
 
 ## Stop points
 
