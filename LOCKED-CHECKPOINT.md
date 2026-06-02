@@ -1,106 +1,70 @@
-# LOCKED CHECKPOINT
+# LOCKED-CHECKPOINT.md
 
-## Current Stable Stack
+Last updated: 2026-06-02
+
+## Current stable stack
+
 - HTML
 - CSS
 - JavaScript
-- GitHub Pages
-- Cloudflare
+- GitHub
+- Cloudflare Pages
 
-No React.
-No Vite.
-No TypeScript.
-No build tools.
+No React. No Vite. No TypeScript. No build tools.
 
-## Stable Navigation
-Main navigation currently includes:
-- Home
-- Free Slots
-- Bonuses
-- Reviews
-- Social Casinos
-- Responsible Play
+## Locked status
 
-## Support Pages
-Current support pages:
-- about.html
-- contact.html
-- privacy.html
-- terms.html
-- affiliate-disclosure.html
-- search.html
+SlotsFreeUSA.com has been updated for affiliate-approval readiness, especially for regulated U.S. casino affiliate review such as BetMGM Partners.
 
-## Current Educational Pages
-- free-slots.html
-- what-are-social-casinos.html
-- best-free-slots-for-beginners.html
-- sweepstakes-casino-guide.html
+This checkpoint is locked so future work can continue without repeating these updates.
 
-## Mobile Status
-- responsive navigation active
-- mobile menu working
-- stacked mobile hero layout working
-- mobile footer wrapping working
-- comparison tables scroll safely on mobile
+## Completed in this checkpoint
 
-## Accessibility Status
-Completed basics:
-- viewport meta tags
-- button aria labels
-- semantic headings
-- readable color contrast
-- mobile readable font sizes
-- disabled newsletter/search placeholders clearly labeled
+- Added `css/approval-ready.css` for improved approval-focused presentation.
+- Updated `index.html` to position SlotsFreeUSA as:
+  - free demo slots,
+  - casino education,
+  - responsible gambling resources,
+  - regulated U.S. casino information,
+  - not an online casino operator.
+- Added visible homepage and footer statements:
+  - `21+ only. Gambling problem? Call 1-800-GAMBLER.`
+  - `We do not accept wagers or deposits.`
+  - `We do not accept payments, player funds, or gambling transactions.`
+  - `No live BetMGM links are active unless approved.`
+- Upgraded `responsible-gaming.html` into a stronger Responsible Gambling page.
+- Upgraded `affiliate-disclosure.html` for affiliate-program review.
+- Upgraded `privacy.html` for affiliate, contact, analytics, cookie, and responsible gambling readiness.
+- Upgraded `terms.html` to clarify adult-only use, no wagering, no deposits, no offshore casino promotion, and no guarantees.
+- Upgraded `contact.html` with clear business email and affiliate-review language.
+- Updated `sitemap.xml` lastmod dates for approval-critical pages.
 
-## SEO / Trust Status
-Completed:
-- homepage canonical URL
-- homepage Open Graph tags
-- homepage FAQ schema
-- homepage WebSite schema
-- homepage Organization schema
-- sitemap includes current public pages
-- robots.txt points to sitemap
-- search placeholder prevents schema target from becoming a broken page
+## Current approval positioning
 
-## Brand / Asset Status
-Added:
-- images/lucky-lou-icon.svg
-- images/lucky-lou-social.svg
+SlotsFreeUSA.com should be described as:
 
-Still missing optional assets:
-- PNG mascot render
-- PNG social image render
-- browser-specific favicon package
+> SlotsFreeUSA.com is a free demo slots and casino education website for adult U.S. visitors age 21+. The site provides responsible gambling resources and regulated U.S. casino information. We do not operate an online casino, accept wagers, accept deposits, process payments, hold player funds, or issue payouts. Live BetMGM links will not be added unless affiliate approval, approved tracking links, approved creative, state rules, and required disclosures are complete.
 
-## Monetization Status
-Prepared but not live:
-- newsletter placeholder added
-- review comparison table added
-- partner review structure improved
+## Do not undo
 
-Not added yet:
-- live affiliate links
-- live ads
-- payment processing
-- user tracking
+Do not remove or weaken these messages:
 
-## Known Missing Items
-- real review data
-- individual partner review pages
-- beginner glossary pages
-- email provider setup
-- ad network setup
-- full favicon package
+- 21+ only.
+- Gambling problem? Call 1-800-GAMBLER.
+- We do not accept wagers or deposits.
+- We do not operate an online casino.
+- No offshore casino promotion.
+- No live BetMGM links until approved.
+- Affiliate disclosures must stay visible before partner links go live.
 
-## Safe Next Queue
-1. Add beginner glossary pages.
-2. Add individual review template pages.
-3. Improve internal links across existing guide pages.
-4. Add more FAQ schema to guide pages.
-5. Add ad placement placeholders only after layout review.
-6. Add newsletter provider only after privacy/consent workflow is selected.
-7. Create PNG versions of Lucky Lou assets when image workflow is available.
+## Next safe tasks
 
-## Blocked Items
-No blocked file writes during this checkpoint.
+1. Review remaining content pages for older wording like `social casino reviews`, `sweepstakes casino`, or anything that could sound like SlotsFreeUSA operates gambling.
+2. Create or update a BetMGM affiliate application text file for copy/paste use.
+3. Add a visible `Affiliate Approval Ready` checklist page or section if needed.
+4. Review `reviews.html`, `bonuses.html`, `partner-with-us.html`, and `how-we-review.html` for regulated-U.S.-casino language.
+5. Do not add live BetMGM links, live affiliate tracking, live ads, or tracking scripts until approval.
+
+## Workflow rule
+
+Use Codex/GitHub for future repo work. Do not ask Gerry to copy, paste, or manually replace files unless there is a real blocker.
