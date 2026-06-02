@@ -1,0 +1,121 @@
+:root {
+  --approval-gold: #facc15;
+  --approval-green: #22c55e;
+  --approval-blue: #38bdf8;
+  --approval-red: #ef4444;
+  --approval-card: rgba(31, 41, 55, 0.88);
+}
+
+.approval-banner {
+  background: linear-gradient(135deg, rgba(250, 204, 21, 0.16), rgba(56, 189, 248, 0.12));
+  border: 1px solid rgba(250, 204, 21, 0.45);
+  border-radius: 18px;
+  padding: 18px;
+  margin-top: 22px;
+}
+
+.approval-banner strong,
+.footer-warning strong {
+  color: var(--approval-gold);
+}
+
+.trust-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.trust-pill {
+  background: rgba(15, 23, 42, 0.88);
+  border: 1px solid rgba(250, 204, 21, 0.28);
+  border-radius: 999px;
+  padding: 10px 14px;
+  color: #f8fafc;
+  font-weight: 700;
+  text-align: center;
+}
+
+.approval-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.approval-card {
+  background: var(--approval-card);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+}
+
+.approval-card h3,
+.legal-callout h2 {
+  color: var(--approval-gold);
+  margin-top: 0;
+}
+
+.approval-card ul,
+.legal-callout ul {
+  padding-left: 1.2rem;
+}
+
+.approval-card li,
+.legal-callout li {
+  margin-bottom: 8px;
+}
+
+.legal-callout {
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.94), rgba(30, 41, 59, 0.94));
+  border: 1px solid rgba(56, 189, 248, 0.32);
+  border-radius: 18px;
+  padding: 26px;
+  margin: 24px 0;
+}
+
+.partner-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(34, 197, 94, 0.42);
+  background: rgba(34, 197, 94, 0.12);
+  color: #bbf7d0;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-weight: 800;
+}
+
+.partner-status::before {
+  content: "✓";
+  color: var(--approval-green);
+}
+
+.footer-warning {
+  grid-column: 1 / -1;
+  border-top: 1px solid #1f2937;
+  margin-top: 18px;
+  padding-top: 18px;
+  color: #d1d5db;
+  font-size: 0.95rem;
+}
+
+.footer-warning p {
+  margin: 6px 0;
+}
+
+.footer-warning a {
+  color: var(--approval-gold);
+  display: inline;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .trust-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .trust-pill {
+    border-radius: 14px;
+  }
+}
