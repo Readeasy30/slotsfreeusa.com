@@ -1,33 +1,51 @@
-# SlotsFreeUSA — Project Context for Claude
+# CLAUDE.md
+
+GitHub is the source of truth.
+
+## Startup
+
+1. Read this file.
+2. Read STATUS.md if present.
+3. Inspect the repository files.
+4. Trust the live repo over old notes.
+5. Report mismatches before editing.
+
+## Rules
+
+- Work from the repo files.
+- Keep replies short.
+- Avoid repeated questions.
+- Do not redesign unless Gerry asks.
+- Keep pages mobile-first, fast, and simple.
+- Preserve required disclosure and legal pages.
+
+## Report
+
+After work, report the repo, files changed, commit, next check, and blockers.
+
+---
+
+# SlotsFreeUSA — Project Context
 
 ## Project Overview
-- **Site:** SlotsFreeUSA.com — free online slots and casino review/affiliate site
-- **Tech Stack:** Static HTML + CSS (`css/`) + JS (`js/`) + images (`images/`), deployed on Cloudflare Pages
-- **Cloudflare Worker:** `slotsfreeusa` worker deployed for backend/affiliate logic
-- **Domain:** slotsfreeusa.com (Cloudflare managed, CNAME file present)
+- Site: SlotsFreeUSA.com
+- Stack: static HTML, CSS, JavaScript, and images
+- Deployment: Cloudflare Pages from GitHub main branch
+- Domain: slotsfreeusa.com
 
 ## Project Structure
-- `index.html` — homepage (13.5KB)
+- `index.html` — homepage
 - `404.html` — custom error page
 - `css/` — stylesheets
 - `js/` — JavaScript files
 - `images/` — image assets
-- `legal/` — legal pages (privacy, terms, affiliate disclosure)
-- `_headers` — Cloudflare Pages security and cache headers
-- `_redirects` — Cloudflare Pages URL redirects
+- `legal/` — required legal and disclosure pages
+- `_headers` — Cloudflare Pages headers
+- `_redirects` — Cloudflare Pages redirects
 - `CNAME` — custom domain config
 - `sitemap.xml`, `robots.txt` — SEO files
-- `.nojekyll` — disables Jekyll processing on GitHub Pages (legacy)
-
-## Git Workflow
-- `main` branch auto-deploys to Cloudflare Pages
-- Feature branches: `feature/branch-name` or `claude/...`
-- Follow Conventional Commits: `feat:`, `fix:`, `chore:`, `docs:`
 
 ## Important Rules
-- **Affiliate compliance:** All casino/slots affiliate links must include proper disclosures
-- **Legal pages required:** Privacy policy, terms of service, and affiliate disclosure must stay up to date
-- **Responsible gambling:** Include responsible gambling messaging on all relevant pages
-- **No unlicensed claims:** Do not claim specific payout rates or RTP without sourcing
-- **Age gate:** 18+ / 21+ messaging required per jurisdiction
-- Mobile-first design — test on mobile before deploying
+- Keep disclosure and legal pages current.
+- Do not make unsupported performance or payout claims.
+- Keep mobile-first design.
